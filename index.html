@@ -151,59 +151,15 @@
 				<div class="title"><svg t="1705257422086" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1891" >
                         <path d="M629.333333 202.666667v213.333333h277.333334v448h-512v-213.333333h-277.333334v-448h512z m213.333334 277.333333h-213.333334v170.666667h-170.666666v149.333333h384v-320z m-277.333334-213.333333h-384v320h213.333334v-170.666667h170.666666v-149.333333z m0 213.333333h-106.666666v106.666667h106.666666v-106.666667z"  p-id="1892"></path>
                     </svg>直播源 </div>
-				<div class="projectList">
-    <div class="projectItem a" onclick="copyLink('https://shimmering-taffy-8c2940.netlify.app')">
-        <div class="projectItemLeft">
-            <h1>更新直播源</h1>
-            <p>定期更新m3u</p>
-        </div>
-        <div class="projectItemRight">
-            <img src="./static/img/i1.png" alt="项目图片">
-        </div>
-    </div>
-</div>
+			    <div class="projectList"><a class="projectItem a" target="_blank" href="https://www.iptvindex.com">
+						<div class="projectItemLeft">
+							<h1>IPTV</h1>
+							<p>定期更新直播源</p>
+						</div>
+						<div class="projectItemRight">
+							<img src="./static/img/i1.png" alt="">
+						</div>
 
-<script>
-function copyLink(url) {
-    // 复制链接到剪贴板
-    navigator.clipboard.writeText(url)
-        .then(() => {
-            // 显示复制成功提示
-            showCopyMessage();
-        })
-        .catch(err => {
-            console.error('复制失败: ', err);
-            alert('复制失败，请手动复制链接');
-        });
-}
-
-function showCopyMessage() {
-    // 创建提示元素
-    const message = document.createElement('div');
-    message.textContent = '链接已复制成功！';
-    message.style.position = 'fixed';
-    message.style.bottom = '20px';
-    message.style.left = '50%';
-    message.style.transform = 'translateX(-50%)';
-    message.style.backgroundColor = 'rgba(0, 128, 0, 0.8)';
-    message.style.color = 'white';
-    message.style.padding = '10px 20px';
-    message.style.borderRadius = '4px';
-    message.style.zIndex = '9999';
-    message.style.transition = 'opacity 0.3s ease';
-    
-    // 添加到页面
-    document.body.appendChild(message);
-    
-    // 3秒后移除提示
-    setTimeout(() => {
-        message.style.opacity = '0';
-        setTimeout(() => {
-            document.body.removeChild(message);
-        }, 300);
-    }, 3000);
-}
-</script>
 
 					</a><a class="projectItem a" target="_blank" href="https://www.y977.com/tv/">
 						<div class="projectItemLeft">
